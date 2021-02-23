@@ -42,5 +42,6 @@ require(["esri/map", "esri/layers/ArcGISDynamicMapServiceLayer", "esri/layers/Fe
       }, "divLegend");
       myLegend.startup();
     });
+    
 });
 
