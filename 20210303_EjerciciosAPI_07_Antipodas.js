@@ -47,6 +47,7 @@ require([
         mapa1.on("load", iniciarDibujo);
 
         function iniciarDibujo() {
+            mapa1.graphics.clear();
             dibujo = new Draw(mapa1);
             dibujo.activate(Draw.POINT);
             dibujo.on("draw-end", dibujarAntipoda);
@@ -56,7 +57,7 @@ require([
 
             console.log(evento)
 
-            dibujo.deactivate();
+            // dibujo.deactivate();
 
             var geometria = evento.geometry;
 
