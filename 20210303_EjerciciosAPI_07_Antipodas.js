@@ -98,14 +98,14 @@ require([
 
         };
 
-        function redibujar(){
-            dibujo = new Draw(mapa1);
-            dibujo.activate(Draw.POINT);
-            dibujo.on("draw-end", function(){
-                // mapa1.graphics.clear();
-                dibujarAntipoda;
-            });
-        };
+        // function redibujar(){
+        //     dibujo = new Draw(mapa1);
+        //     dibujo.activate(Draw.POINT);
+        //     dibujo.on("draw-end", function(){
+        //         // mapa1.graphics.clear();
+        //         dibujarAntipoda;
+        //     });
+        // };
 
 
     });
